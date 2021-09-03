@@ -1,0 +1,16 @@
+.container{
+    margin: 0 auto;
+    width: 1080px;
+}
+
+body{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height:1.6;
+}
+
+.place{
+    border-color: #ccc #999 #999 #ccc;
+    border: 1px solid #ccc;
+    margin: 1px 1px 1px 1px;
+    padding: 1px;
+}
