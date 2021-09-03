@@ -1,16 +1,99 @@
 .container{
     margin: 0 auto;
     width: 1080px;
+    
+}
+.fundo{
+    background:rgba(177, 236, 213, 0.603);
 }
 
 body{
+    background: url(riofundo.jpg);
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     line-height:1.6;
+
 }
 
+.places{
+    float:left;
+    width:780px;
+}
 .place{
     border-color: #ccc #999 #999 #ccc;
     border: 1px solid #ccc;
     margin: 1px 1px 1px 1px;
     padding: 1px;
+    background:yellowgreen;
+    position: relative;
+    left:  450px;
 }
+
+.place h2{
+    border-bottom: 1px dashed #7e9f19;
+    margin: 0;
+}
+
+#titulo1{
+    width:170px
+}
+#titulo2{
+    width:147px;
+}
+#titulo3{
+    width:167px;
+}
+
+div.sticky {
+    width: 480px;
+    position: sticky ;
+    top: 0;
+    background-color: rgb(8, 230, 200);
+    border: 2px solid #165018;
+  }
+  .fundo a{
+      color: red;
+      text-decoration: none;
+  }
+
+  #place h1{
+      margin: 0;
+      color:darkturquoise;
+  }
+
+  .fundo img{
+    width:250px;
+    height:200px;
+    border: 1px solid aqua;
+    float: left;
+    padding: 2px;
+  }
+  h1 a{
+      text-decoration: none;
+  }
+
+  h1 a:hover{
+      background-color:deeppink;
+      color:floralwhite;
+  }
+  .footer{
+      font-size: 12;
+      text-align: center;
+      background-color: azure;
+  }
+
+  .sidenote{
+      background-color:#fffbe4;
+      border: solid 1px;
+      padding: 10px;
+      float:right;
+      width: 260px;
+  }
+
+  .sidenote h3{
+      font-size: 14px;
+      margin-top: 0;
+  }
+
+  .sidenote ol{
+      font-size:12px;
+  }
